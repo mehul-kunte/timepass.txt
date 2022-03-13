@@ -3,7 +3,7 @@
 int main() {
 	int number; // var declaration
 	int roll = 424; // var declaration + initialization
-	double basic_salary = 20000.0, total_salary = 25000.0; // can declare multiple variables in single line.
+	double basic_salary = 30000.0, total_salary = 25000.0; // can declare multiple variables in single line.
 	char ch = 'A';
 	printf("Variables & Data Types.\n");
 	number = 12; // var assignment
