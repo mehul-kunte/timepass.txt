@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+	int number; // var declaration
+	int roll = 424; // var declaration + initialization
+	double basic_salary = 20000.0, total_salary = 25000.0; // can declare multiple variables in single line.
+	char ch = 'A';
+	printf("Variables & Data Types.\n");
+	number = 12; // var assignment
+	printf("number --> %d\n", number);
+	number = 17; // var assignment -- overwrite old value 12
+	printf("%d\n", roll);
+	printf("number --> %d\n", number);
+	printf("%lf %lf\n", basic_salary, total_salary);
+	printf("%d %d\n%lf %lf\n", roll, number, basic_salary, total_salary);
+	printf("%c\n", ch);
+	return 0;
+}
